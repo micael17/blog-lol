@@ -1,0 +1,99 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+export async function getStaticPaths() {
+	const news = await getCollection('news');
+	return news.map((item) => ({
+		params: { slug: item.id },
+		props: item,
+	}));
+}
+
+const news = Astro.props;
+const { Content } = await render(news);
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={`${news.data.title} | ${SITE_TITLE}`} description={news.data.description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article>
+				<header class="news-header">
+					<span class="category">{news.data.category}</span>
+					<h1>{news.data.title}</h1>
+					<time datetime={news.data.pubDate.toISOString()}>
+						{news.data.pubDate.toLocaleDateString('ko-KR')}
+					</time>
+				</header>
+				<div class="content">
+					<Content />
+				</div>
+			</article>
+			<nav class="back-nav">
+				<a href="/news">← 목록으로</a>
+			</nav>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.news-header {
+		margin-bottom: 2rem;
+		padding-bottom: 1.5rem;
+		border-bottom: 1px solid rgb(var(--gray-200));
+	}
+
+	.category {
+		display: inline-block;
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		background: rgb(var(--black));
+		color: rgb(var(--white));
+		border-radius: 4px;
+		margin-bottom: 1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+		margin: 0 0 0.75rem 0;
+	}
+
+	time {
+		font-size: 0.875rem;
+		color: rgb(var(--gray-500));
+	}
+
+	.content {
+		line-height: 1.8;
+	}
+
+	.back-nav {
+		margin-top: 3rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid rgb(var(--gray-200));
+	}
+
+	.back-nav a {
+		font-size: 0.9375rem;
+		color: rgb(var(--gray-600));
+	}
+
+	.back-nav a:hover {
+		color: rgb(var(--black));
+	}
+
+	@media (max-width: 640px) {
+		h1 {
+			font-size: 1.5rem;
+		}
+	}
+</style>
