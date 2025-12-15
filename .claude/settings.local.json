@@ -4,7 +4,13 @@
       "Bash(/c/Users/micae/.bun/bin/bun.exe install:*)",
       "WebSearch",
       "WebFetch(domain:fs.blog)",
-      "WebFetch(domain:zenhabits.net)"
+      "WebFetch(domain:zenhabits.net)",
+      "WebFetch(domain:op.gg)",
+      "WebFetch(domain:namu.wiki)",
+      "WebFetch(domain:www.leagueoflegends.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\ncontent: 유나라 공략 추가 + 이미지/영상 규칙 정립\n\n- 유나라 챔피언 공략 추가 (스킬/룬/아이템/카운터)\n- 유나라/자헨 스킬 영상 임베드 추가\n- 유나라/자헨 이미지 로컬 저장 (64x64 아이콘)\n- CLAUDE.md에 이미지 로컬 저장 규칙 추가\n- champion-guide.md 스킬 파일에 영상 규칙 추가\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
     ]
   }
 }

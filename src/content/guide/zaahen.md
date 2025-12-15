@@ -8,7 +8,7 @@ pubDate: 2025-12-11
 updatedDate: 2025-12-15
 ---
 
-![자헨 스플래시 아트](https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/zaahen/skins/base/images/zaahen_splash_centered_0.zaahen.jpg)
+![자헨 스플래시 아트](/images/champions/zaahen/splash.jpg)
 
 2025년 마지막 신규 챔피언 **자헨(Zaahen)**이 드디어 소환사의 협곡에 등장했습니다. "저물지 않는 자"라는 별명을 가진 자헨은 나피리 이후 무려 2년 4개월 만에 등장한 다르킨 챔피언입니다.
 
@@ -40,7 +40,9 @@ updatedDate: 2025-12-15
 
 ## 스킬 상세 분석
 
-### ![패시브](https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/zaahen/hud/icons2d/zaahenp.zaahen.png) 패시브 - 전쟁 단련
+### ![패시브](/images/champions/zaahen/passive.png) 패시브 - 전쟁 단련
+
+<video src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/b671e0e4d94b4969d7b1a12b7392d63e8a1aa867.webm" width="100%" preload="metadata" controls></video>
 
 자헨의 핵심 메커니즘인 **결심(Determination) 중첩** 시스템입니다.
 
@@ -55,7 +57,9 @@ updatedDate: 2025-12-15
 
 ---
 
-### ![Q](https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/zaahen/hud/icons2d/zaahenq.zaahen.png) Q - 다르킨의 글레이브
+### ![Q](/images/champions/zaahen/q.png) Q - 다르킨의 글레이브
+
+<video src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/e26bb512c156ea8b2be2e35b20be44f163ba289e.webm" width="100%" preload="metadata" controls></video>
 
 **효과:**
 - **1타**: 두 번 연속 베어 추가 물리 피해 + 체력 회복
@@ -65,7 +69,9 @@ Q 스킬은 자헨 플레이의 근간입니다. 두 번 공격으로 DPS가 강
 
 ---
 
-### ![W](https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/zaahen/hud/icons2d/zaahenw.zaahen.png) W - 공포의 귀환
+### ![W](/images/champions/zaahen/w.png) W - 공포의 귀환
+
+<video src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/ae00c0f54a08a6cc2d5439c80f8617db5c08385c.webm" width="100%" preload="metadata" controls></video>
 
 **효과:**
 - 지정한 방향으로 창을 내질러 피해
@@ -75,7 +81,9 @@ Q 스킬은 자헨 플레이의 근간입니다. 두 번 공격으로 DPS가 강
 
 ---
 
-### ![E](https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/zaahen/hud/icons2d/zaahene.zaahen.png) E - 찬란한 쇄도
+### ![E](/images/champions/zaahen/e.png) E - 찬란한 쇄도
+
+<video src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/4a593d83504e0ec961fef63a45165f4cab611774.webm" width="100%" preload="metadata" controls></video>
 
 **효과:**
 - 지정한 위치로 돌진 + 주변 적에게 물리 피해
@@ -89,7 +97,9 @@ Q 스킬은 자헨 플레이의 근간입니다. 두 번 공격으로 DPS가 강
 
 ---
 
-### ![R](https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/zaahen/hud/icons2d/zaahenr.zaahen.png) R - 단호한 판결
+### ![R](/images/champions/zaahen/r.png) R - 단호한 판결
+
+<video src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/db0b8e59b748c49f9188876cc79aac1eb666ab4f.webm" width="100%" preload="metadata" controls></video>
 
 **효과:**
 - 공중으로 솟아오름 (**저지불가**)

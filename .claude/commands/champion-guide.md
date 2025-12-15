@@ -19,8 +19,9 @@ updatedDate: YYYY-MM-DD
 ## 공략 구조
 
 ### 1. 도입부
-- 스플래시 아트 이미지 (Community Dragon CDN)
+- 스플래시 아트 이미지 (로컬 저장)
 - 챔피언 소개 (1~2문단)
+- YouTube 챔피언 집중탐구 영상 임베드 (있을 경우)
 - `---` 구분선
 
 ### 2. 챔피언 개요
@@ -32,9 +33,15 @@ updatedDate: YYYY-MM-DD
 
 ### 3. 스킬 상세 분석
 - **섹션 제목**: `## 스킬 상세 분석`
-- 각 스킬별 소제목: `### ![스킬아이콘](URL) [단축키] - [스킬명]`
+- 각 스킬별 소제목: `### ![스킬아이콘](/images/champions/[챔피언]/[스킬].png) [단축키] - [스킬명]`
+- **스킬 영상** (공식 abilities rundown 페이지에서 URL 가져오기)
 - 스킬 효과, 수치, 활용 팁
 - 3줄 요약 **없음** (개별 스킬에도 없음)
+
+**스킬 영상 형식:**
+```html
+<video src="https://cmsassets.rgpub.io/sanity/files/..." width="100%" preload="metadata" controls></video>
+```
 
 ### 4. 스킬 콤보 가이드
 - **섹션 제목**: `## 스킬 콤보 가이드`
@@ -100,16 +107,36 @@ updatedDate: YYYY-MM-DD
 > 3. 세 번째 핵심 포인트
 ```
 
-## 이미지 URL 패턴
+## 이미지 관리 (로컬 저장 필수)
 
-**스플래시 아트:**
+**외부 URL 사용 금지. 모든 이미지는 반드시 프로젝트 내부에 다운로드하여 사용합니다.**
+
+### 이미지 저장 구조
 ```
-https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/[챔피언영문소문자]/skins/base/images/[챔피언영문소문자]_splash_centered_0.[챔피언영문소문자].jpg
+public/images/champions/[챔피언영문소문자]/
+├── splash.jpg      # 스플래시 아트
+├── passive.png     # 패시브 아이콘
+├── q.png           # Q 스킬 아이콘
+├── w.png           # W 스킬 아이콘
+├── e.png           # E 스킬 아이콘
+└── r.png           # R 스킬 아이콘
 ```
 
-**스킬 아이콘:**
+### 이미지 다운로드 소스
+- **스플래시 아트**: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/[ChampionName]_0.jpg`
+- **스킬 아이콘**: 공식 LoL 뉴스 페이지 또는 Community Dragon에서 다운로드
+
+### 마크다운에서 사용
+```markdown
+![스플래시](/images/champions/[챔피언영문소문자]/splash.jpg)
+### ![패시브](/images/champions/[챔피언영문소문자]/passive.png) 패시브 - [스킬명]
+### ![Q](/images/champions/[챔피언영문소문자]/q.png) Q - [스킬명]
 ```
-https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/[챔피언영문소문자]/hud/icons2d/[챔피언영문소문자][스킬키소문자].[챔피언영문소문자].png
+
+### YouTube 영상
+YouTube 임베드는 외부 링크 허용:
+```html
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/VIDEO_ID" ...></iframe>
 ```
 
 ## 표 스타일

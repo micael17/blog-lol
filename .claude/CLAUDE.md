@@ -141,11 +141,39 @@ blog-lol/
 - Heading: 700 weight
 - Body: 400 weight, line-height 1.75
 
-## CDN Resources
+## 이미지 관리 규칙
 
-챔피언 이미지 등 LoL 리소스:
+### 핵심 규칙: 로컬 저장 필수
+
+**모든 이미지는 반드시 프로젝트 내부에 저장하여 사용합니다. 외부 URL 링크 사용 금지.**
+
 ```
-https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default
+public/images/champions/[챔피언영문소문자]/
+├── splash.jpg      # 스플래시 아트
+├── passive.png     # 패시브 아이콘
+├── q.png           # Q 스킬 아이콘
+├── w.png           # W 스킬 아이콘
+├── e.png           # E 스킬 아이콘
+└── r.png           # R 스킬 아이콘
+```
+
+### 이미지 소스 (다운로드용)
+
+- **스플래시 아트**: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/[ChampionName]_0.jpg`
+- **스킬 아이콘**: 공식 LoL 뉴스 또는 Community Dragon에서 다운로드
+
+### 마크다운에서 사용
+
+```markdown
+![스플래시](/images/champions/yunara/splash.jpg)
+### ![Q](/images/champions/yunara/q.png) Q - 스킬명
+```
+
+### YouTube 영상
+
+YouTube 임베드는 외부 링크 허용:
+```html
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" ...></iframe>
 ```
 
 ## Coding Guidelines
