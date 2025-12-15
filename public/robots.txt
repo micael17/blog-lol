@@ -1,0 +1,6 @@
+# robots.txt for lolog
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://blog-lol.pages.dev/sitemap-index.xml

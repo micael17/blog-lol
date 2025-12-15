@@ -1,10 +1,10 @@
 ---
-import { SITE_TITLE } from '../consts';
+import { SITE_NAME } from '../consts';
 ---
 
 <header>
 	<nav>
-		<a href="/" class="logo">{SITE_TITLE}</a>
+		<a href="/" class="logo">{SITE_NAME}</a>
 		<div class="nav-links">
 			<a href="/guide">공략</a>
 			<a href="/news">뉴스</a>
@@ -17,7 +17,8 @@ import { SITE_TITLE } from '../consts';
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		background: rgb(var(--white));
+		background: rgba(255, 255, 255, 0.95);
+		backdrop-filter: blur(10px);
 		border-bottom: 1px solid rgb(var(--gray-200));
 	}
 
@@ -31,10 +32,23 @@ import { SITE_TITLE } from '../consts';
 	}
 
 	.logo {
-		font-size: 1.25rem;
+		font-size: 1.375rem;
 		font-weight: 800;
 		text-decoration: none;
 		letter-spacing: -0.02em;
+		color: rgb(var(--black));
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.logo::before {
+		content: '';
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		background: rgb(var(--accent));
+		border-radius: 2px;
 	}
 
 	.logo:hover {
@@ -43,20 +57,36 @@ import { SITE_TITLE } from '../consts';
 
 	.nav-links {
 		display: flex;
-		gap: 2rem;
+		gap: 2.5rem;
 	}
 
 	.nav-links a {
 		font-size: 0.9375rem;
 		font-weight: 500;
 		text-decoration: none;
-		color: rgb(var(--gray-600));
+		color: rgb(var(--gray-500));
 		transition: color 0.2s;
+		position: relative;
 	}
 
 	.nav-links a:hover {
 		color: rgb(var(--black));
 		opacity: 1;
+	}
+
+	.nav-links a::after {
+		content: '';
+		position: absolute;
+		bottom: -4px;
+		left: 0;
+		width: 0;
+		height: 2px;
+		background: rgb(var(--accent));
+		transition: width 0.2s;
+	}
+
+	.nav-links a:hover::after {
+		width: 100%;
 	}
 
 	@media (max-width: 640px) {

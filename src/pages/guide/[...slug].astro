@@ -14,7 +14,8 @@ export async function getStaticPaths() {
 }
 
 const guide = Astro.props;
-const { Content } = await render(guide);
+const { Content, headings } = await render(guide);
+const toc = headings.filter(h => h.depth === 2);
 ---
 
 <!doctype html>
@@ -24,39 +25,119 @@ const { Content } = await render(guide);
 	</head>
 	<body>
 		<Header />
-		<main>
-			<article>
-				<header class="guide-header">
-					<div class="meta">
-						<span class="champion">{guide.data.champion}</span>
-						<span class="role">{guide.data.role}</span>
-						<span class="difficulty">{guide.data.difficulty}</span>
+		<div class="layout-wrapper">
+			<aside class="toc-sidebar">
+				<nav class="toc">
+					<div class="toc-title">목차</div>
+					<ul>
+						{toc.map((heading) => (
+							<li class={`toc-item depth-${heading.depth}`}>
+								<a href={`#${heading.slug}`}>{heading.text}</a>
+							</li>
+						))}
+					</ul>
+				</nav>
+			</aside>
+			<main>
+				<article>
+					<header class="guide-header">
+						<div class="meta">
+							<span class="champion">{guide.data.champion}</span>
+							<span class="role">{guide.data.role}</span>
+							<span class="difficulty">{guide.data.difficulty}</span>
+						</div>
+						<h1>{guide.data.title}</h1>
+						<div class="date-info">
+							<time datetime={guide.data.pubDate.toISOString()}>
+								{guide.data.pubDate.toLocaleDateString('ko-KR')}
+							</time>
+							{guide.data.updatedDate && (
+								<span class="updated">
+									(수정: {guide.data.updatedDate.toLocaleDateString('ko-KR')})
+								</span>
+							)}
+						</div>
+					</header>
+					<div class="content">
+						<Content />
 					</div>
-					<h1>{guide.data.title}</h1>
-					<div class="date-info">
-						<time datetime={guide.data.pubDate.toISOString()}>
-							{guide.data.pubDate.toLocaleDateString('ko-KR')}
-						</time>
-						{guide.data.updatedDate && (
-							<span class="updated">
-								(수정: {guide.data.updatedDate.toLocaleDateString('ko-KR')})
-							</span>
-						)}
-					</div>
-				</header>
-				<div class="content">
-					<Content />
-				</div>
-			</article>
-			<nav class="back-nav">
-				<a href="/guide">← 목록으로</a>
-			</nav>
-		</main>
+				</article>
+				<nav class="back-nav">
+					<a href="/guide">← 목록으로</a>
+				</nav>
+			</main>
+		</div>
 		<Footer />
 	</body>
 </html>
 
 <style>
+	.layout-wrapper {
+		display: flex;
+		max-width: 1024px;
+		margin: 0 auto;
+		padding: 0 1.5rem;
+	}
+
+	.toc-sidebar {
+		width: 220px;
+		flex-shrink: 0;
+		padding-right: 2rem;
+	}
+
+	.toc {
+		position: sticky;
+		top: 100px;
+		max-height: calc(100vh - 120px);
+		overflow-y: auto;
+	}
+
+	.toc-title {
+		font-size: 0.8125rem;
+		font-weight: 700;
+		color: rgb(var(--black));
+		margin-bottom: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.toc ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.toc-item {
+		margin-bottom: 0.25rem;
+	}
+
+	.toc-item a {
+		display: block;
+		font-size: 0.8125rem;
+		color: rgb(var(--black));
+		text-decoration: none;
+		padding: 0.25rem 0;
+		border-left: 2px solid transparent;
+		padding-left: 0.75rem;
+		transition: all 0.15s;
+	}
+
+	.toc-item a:hover {
+		color: rgb(var(--black));
+		border-left-color: rgb(var(--gray-300));
+	}
+
+	.toc-item.depth-3 a {
+		padding-left: 1.5rem;
+		font-size: 0.75rem;
+	}
+
+	main {
+		flex: 1;
+		max-width: 800px;
+		padding: 2rem 0;
+	}
+
 	.guide-header {
 		margin-bottom: 2rem;
 		padding-bottom: 1.5rem;
@@ -111,6 +192,20 @@ const { Content } = await render(guide);
 
 	.back-nav a:hover {
 		color: rgb(var(--black));
+	}
+
+	@media (max-width: 1024px) {
+		.toc-sidebar {
+			display: none;
+		}
+
+		.layout-wrapper {
+			padding: 0 1rem;
+		}
+
+		main {
+			max-width: 100%;
+		}
 	}
 
 	@media (max-width: 640px) {
