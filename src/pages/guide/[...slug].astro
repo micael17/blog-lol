@@ -21,7 +21,13 @@ const toc = headings.filter(h => h.depth === 2);
 <!doctype html>
 <html lang="ko">
 	<head>
-		<BaseHead title={`${guide.data.title} | ${SITE_TITLE}`} description={guide.data.description} />
+		<BaseHead
+			title={`${guide.data.title} | ${SITE_TITLE}`}
+			description={guide.data.description}
+			type="article"
+			articleDate={guide.data.pubDate}
+			articleModifiedDate={guide.data.updatedDate}
+		/>
 	</head>
 	<body>
 		<Header />

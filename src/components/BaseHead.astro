@@ -42,9 +42,9 @@ const {
 />
 <meta name="generator" content={Astro.generator} />
 
-<!-- Font preloads -->
-<link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
-<link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
+<!-- Google Fonts preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
@@ -81,3 +81,34 @@ const {
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+
+<!-- JSON-LD Structured Data -->
+{type === 'website' ? (
+	<script type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": SITE_NAME,
+		"url": Astro.site,
+		"description": description,
+		"inLanguage": "ko-KR"
+	})} />
+) : (
+	<script type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": title,
+		"description": description,
+		"url": Astro.url,
+		"datePublished": articleDate?.toISOString(),
+		"dateModified": articleModifiedDate?.toISOString() || articleDate?.toISOString(),
+		"author": {
+			"@type": "Person",
+			"name": SITE_AUTHOR
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": SITE_NAME
+		},
+		"inLanguage": "ko-KR"
+	})} />
+)}
