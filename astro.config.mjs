@@ -10,7 +10,18 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://lolog.lol',
-  integrations: [mdx(), sitemap(), react()],
+  integrations: [
+    mdx(),
+    sitemap({
+      serialize(item) {
+        return {
+          ...item,
+          lastmod: new Date().toISOString(),
+        };
+      },
+    }),
+    react(),
+  ],
 
   vite: {
     plugins: [tailwindcss()],
