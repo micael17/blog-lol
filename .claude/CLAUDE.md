@@ -15,20 +15,17 @@
 | **Styling** | Tailwind CSS 4 |
 | **Language** | TypeScript (strict) |
 | **Runtime** | Bun (NOT Node.js) |
-| **Deployment** | Cloudflare Pages |
+| **Deployment** | AWS Lightsail |
 
 ## Repository & Deployment
 
 - **GitHub**: https://github.com/micael17/blog-lol.git
-- **Production URL**: https://blog-lol.pages.dev
+- **Production URL**: https://lolog.lol
 - **Local Path**: /Users/jihongkim/Documents/workspace/blog-lol
 
-## Cloudflare Pages Settings
+## Lightsail Deployment
 
-```yaml
-Build command: bun run build
-Build output directory: dist
-```
+정적 사이트를 Lightsail 인스턴스에서 서빙 (Nginx 또는 정적 호스팅)
 
 ## Development Commands
 
@@ -195,6 +192,5 @@ YouTube 임베드는 외부 링크 허용:
 
 ## Notes
 
-- Cloudflare Pages UI updated in 2025: Pages option is hidden under Workers & Pages
-- Domain format: `*.pages.dev` (not `*.workers.dev`)
+- 배포: AWS Lightsail 인스턴스 사용
 - 콘텐츠는 AI가 생성하고 사람이 검수하는 방식
