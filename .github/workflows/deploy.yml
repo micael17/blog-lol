@@ -33,12 +33,14 @@ jobs:
           username: ${{ secrets.LIGHTSAIL_USERNAME }}
           key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
           port: 22
-          source: "dist/*"
-          target: "/var/www/lolog.lol"
-          strip_components: 1
-          rm: true
+          source: "dist"
+          target: "~/lolog.lol-deploy"
+          rm: false
+          strip_components: 0
+          timeout: 10m
+          command_timeout: 10m
 
-      - name: Set permissions
+      - name: Move files and set permissions
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.LIGHTSAIL_HOST }}
@@ -46,6 +48,17 @@ jobs:
           key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
           port: 22
           script: |
+            echo "📂 기존 파일 정리..."
+            sudo rm -rf /var/www/lolog.lol/*
+
+            echo "📦 새 파일 복사..."
+            sudo cp -r ~/lolog.lol-deploy/dist/* /var/www/lolog.lol/
+
+            echo "🔒 권한 설정..."
             sudo chown -R www-data:www-data /var/www/lolog.lol
             sudo chmod -R 755 /var/www/lolog.lol
+
+            echo "🧹 임시 폴더 정리..."
+            rm -rf ~/lolog.lol-deploy
+
             echo "✅ 배포 완료: https://lolog.lol"
