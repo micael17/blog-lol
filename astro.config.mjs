@@ -9,7 +9,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://blog-lol.pages.dev',
+  site: 'https://lolog.lol',
   integrations: [mdx(), sitemap(), react()],
 
   vite: {
