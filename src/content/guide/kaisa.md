@@ -42,6 +42,8 @@ updatedDate: 2025-12-19
 
 ### ![패시브](/images/champions/kaisa/passive.png) 패시브 - 두 번째 피부
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0145/ability_0145_P1.mp4" width="100%" preload="metadata" controls></video>
+
 카이사의 **핵심 메카닉**인 플라즈마 스택과 스킬 진화 시스템입니다.
 
 **플라즈마 효과:**
@@ -59,6 +61,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/kaisa/q.png) Q - 공허 추적자
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0145/ability_0145_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 다수의 미사일을 발사하는 **주력 딜링 스킬**입니다.
 
@@ -78,6 +82,8 @@ updatedDate: 2025-12-19
 
 ### ![W](/images/champions/kaisa/w.png) W - 공허 추적기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0145/ability_0145_W1.mp4" width="100%" preload="metadata" controls></video>
+
 장거리 스킬샷으로 **플라즈마 스택**을 쌓는 스킬입니다.
 
 **효과:**
@@ -96,6 +102,8 @@ AP 빌드에서 W 진화가 핵심입니다. 장거리에서 W를 연속으로 �
 
 ### ![E](/images/champions/kaisa/e.png) E - 과충전
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0145/ability_0145_E1.mp4" width="100%" preload="metadata" controls></video>
+
 이동 속도를 높이며 **공격 속도를 폭발적으로 증가**시키는 스킬입니다.
 
 **효과:**
@@ -113,6 +121,8 @@ E 진화로 적의 타겟팅을 끊고 기습적으로 딜을 넣을 수 있습�
 ---
 
 ### ![R](/images/champions/kaisa/r.png) R - 살수 본능
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0145/ability_0145_R1.mp4" width="100%" preload="metadata" controls></video>
 
 플라즈마가 쌓인 적에게 **순간이동**하는 궁극기입니다.
 

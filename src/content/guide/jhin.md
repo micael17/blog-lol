@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/jhin/passive.png) 패시브 - 속삭임
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0202/ability_0202_P1.mp4" width="100%" preload="metadata" controls></video>
+
 진의 총 **속삭임**은 4발만 장전되며, 공격 속도가 고정됩니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/jhin/q.png) Q - 춤추는 유탄
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0202/ability_0202_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 수류탄을 던져 적에게 튕기며 피해를 줍니다.
 
@@ -67,6 +71,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![W](/images/champions/jhin/w.png) W - 치명적인 꽃
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0202/ability_0202_W1.mp4" width="100%" preload="metadata" controls></video>
 
 긴 사거리의 관통 스킬샷을 발사합니다.
 
@@ -83,6 +89,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/jhin/e.png) E - 감시자
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0202/ability_0202_E1.mp4" width="100%" preload="metadata" controls></video>
+
 보이지 않는 덫을 설치합니다.
 
 **효과:**
@@ -96,6 +104,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/jhin/r.png) R - 커튼 콜
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0202/ability_0202_R1.mp4" width="100%" preload="metadata" controls></video>
 
 초장거리 저격을 발사하는 궁극기입니다.
 

@@ -42,6 +42,8 @@ updatedDate: 2025-12-17
 
 ### ![패시브](/images/champions/fiora/passive.png) 패시브 - 결투의 춤
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0114/ability_0114_P1.mp4" width="100%" preload="metadata" controls></video>
+
 피오라의 **핵심 메카닉**인 약점 시스템입니다.
 
 **효과:**
@@ -56,6 +58,8 @@ updatedDate: 2025-12-17
 
 ### ![Q](/images/champions/fiora/q.png) Q - 돌진 베기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0114/ability_0114_Q1.mp4" width="100%" preload="metadata" controls></video>
+
 짧은 거리를 대쉬하며 찌르는 **주력 기동 스킬**입니다.
 
 **효과:**
@@ -69,6 +73,8 @@ Q는 약점을 찌르는 핵심 스킬입니다. 적중하면 쿨타임이 크�
 ---
 
 ### ![W](/images/champions/fiora/w.png) W - 리포스트
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0114/ability_0114_W1.mp4" width="100%" preload="metadata" controls></video>
 
 적의 공격을 막고 **CC를 반사**하는 시그니처 스킬입니다.
 
@@ -92,6 +98,8 @@ Q는 약점을 찌르는 핵심 스킬입니다. 적중하면 쿨타임이 크�
 
 ### ![E](/images/champions/fiora/e.png) E - 칼날 춤
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0114/ability_0114_E1.mp4" width="100%" preload="metadata" controls></video>
+
 두 번의 강화 공격을 하는 **딜링 스킬**입니다.
 
 **효과:**
@@ -106,6 +114,8 @@ E는 Q와 함께 사용하면 약점을 빠르게 연속으로 찌를 수 있습
 ---
 
 ### ![R](/images/champions/fiora/r.png) R - 숨통 끊기
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0114/ability_0114_R1.mp4" width="100%" preload="metadata" controls></video>
 
 대상에게 4방향 약점을 생성하는 **궁극기**입니다.
 

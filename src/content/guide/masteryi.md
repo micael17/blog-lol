@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/masteryi/passive.png) 패시브 - 이중 타격
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0011/ability_0011_P1.mp4" width="100%" preload="metadata" controls></video>
+
 일정 횟수 공격 후 **두 번 공격**합니다.
 
 **효과:**
@@ -52,6 +54,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/masteryi/q.png) Q - 알파 스트라이크
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0011/ability_0011_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 순간이동하며 **다수의 적**에게 피해를 줍니다.
 
@@ -68,6 +72,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/masteryi/w.png) W - 명상
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0011/ability_0011_W1.mp4" width="100%" preload="metadata" controls></video>
+
 채널링하며 **체력을 회복**하고 **피해를 감소**시킵니다.
 
 **효과:**
@@ -83,6 +89,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/masteryi/e.png) E - 우주검
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0011/ability_0011_E1.mp4" width="100%" preload="metadata" controls></video>
+
 일정 시간 **고정 피해**를 추가합니다.
 
 **효과:**
@@ -96,6 +104,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/masteryi/r.png) R - 하이랜더
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0011/ability_0011_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **이동 속도와 공격 속도**가 폭발적으로 증가합니다.
 

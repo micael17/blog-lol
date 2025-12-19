@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/kayle/passive.png) 패시브 - 신성한 승천
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0010/ability_0010_P1.mp4" width="100%" preload="metadata" controls></video>
+
 레벨에 따라 **점점 강해지며 변신**합니다.
 
 **효과:**
@@ -57,6 +59,8 @@ pubDate: 2025-12-19
 
 ### ![Q](/images/champions/kayle/q.png) Q - 빛의 파열
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0010/ability_0010_Q1.mp4" width="100%" preload="metadata" controls></video>
+
 **불꽃 검**을 발사하여 피해와 둔화를 줍니다.
 
 **효과:**
@@ -71,6 +75,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![W](/images/champions/kayle/w.png) W - 천상의 축복
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0010/ability_0010_W1.mp4" width="100%" preload="metadata" controls></video>
 
 자신과 아군을 **치유**하고 **이동 속도를 증가**시킵니다.
 
@@ -87,6 +93,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/kayle/e.png) E - 불멸의 검
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0010/ability_0010_E1.mp4" width="100%" preload="metadata" controls></video>
+
 다음 공격이 **강화**되어 추가 피해를 줍니다.
 
 **효과:**
@@ -101,6 +109,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/kayle/r.png) R - 신성한 심판
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0010/ability_0010_R1.mp4" width="100%" preload="metadata" controls></video>
 
 자신 또는 아군에게 **무적**을 부여합니다.
 

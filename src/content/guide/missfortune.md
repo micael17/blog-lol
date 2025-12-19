@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/missfortune/passive.png) 패시브 - 러브 탭
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0021/ability_0021_P1.mp4" width="100%" preload="metadata" controls></video>
+
 **새로운 대상**을 공격하면 추가 피해를 줍니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/missfortune/q.png) Q - 양날의 총알
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0021/ability_0021_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 총알을 발사하여 **튕겨서** 두 번째 대상을 맞춥니다.
 
@@ -70,6 +74,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/missfortune/w.png) W - 분노의 질주
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0021/ability_0021_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **공격 속도**가 증가하고 **이동 속도**가 빨라집니다.
 
 **효과:**
@@ -85,6 +91,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/missfortune/e.png) E - 비열한 한 발
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0021/ability_0021_E1.mp4" width="100%" preload="metadata" controls></video>
+
 지정 위치에 **총알비**를 내려 둔화시킵니다.
 
 **효과:**
@@ -99,6 +107,8 @@ CC와 혜성 룬 발동에 사용하는 유틸 스킬입니다.
 ---
 
 ### ![R](/images/champions/missfortune/r.png) R - 총알 세례
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0021/ability_0021_R1.mp4" width="100%" preload="metadata" controls></video>
 
 전방에 **탄막**을 퍼부어 적을 학살합니다.
 

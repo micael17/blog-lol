@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/blitzcrank/passive.png) 패시브 - 마나 방벽
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0053/ability_0053_P1.mp4" width="100%" preload="metadata" controls></video>
+
 체력이 낮아지면 **마나를 보호막**으로 전환합니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/blitzcrank/q.png) Q - 로켓 그랩
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0053/ability_0053_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 손을 발사하여 적을 **끌어당깁니다**.
 
@@ -67,6 +71,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/blitzcrank/w.png) W - 과전류
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0053/ability_0053_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **이동 속도가 대폭 증가**합니다.
 
 **효과:**
@@ -79,6 +85,8 @@ Q를 맞추기 위한 포지셔닝에 필수적인 스킬입니다.
 ---
 
 ### ![E](/images/champions/blitzcrank/e.png) E - 동력 주먹
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0053/ability_0053_E1.mp4" width="100%" preload="metadata" controls></video>
 
 다음 공격이 **띄워올리기**를 발동합니다.
 
@@ -93,6 +101,8 @@ Q 적중 후 확정 CC를 제공하는 핵심 스킬입니다.
 ---
 
 ### ![R](/images/champions/blitzcrank/r.png) R - 정전기장
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0053/ability_0053_R1.mp4" width="100%" preload="metadata" controls></video>
 
 주변 적에게 **침묵**을 부여합니다.
 

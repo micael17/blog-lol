@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/leesin/passive.png) 패시브 - 질풍격
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0064/ability_0064_P1.mp4" width="100%" preload="metadata" controls></video>
+
 스킬 사용 후 다음 **두 번의 기본 공격**이 강화됩니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/leesin/q.png) Q - 음파 / 공명의 일격
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0064/ability_0064_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 음파를 발사하고, 재사용 시 **적에게 돌진**합니다.
 
@@ -67,6 +71,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/leesin/w.png) W - 방호 / 강철의 의지
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0064/ability_0064_W1.mp4" width="100%" preload="metadata" controls></video>
+
 아군에게 돌진하고, 재사용 시 **생명력 흡수**를 얻습니다.
 
 **효과:**
@@ -80,6 +86,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/leesin/e.png) E - 폭풍 / 무력화
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0064/ability_0064_E1.mp4" width="100%" preload="metadata" controls></video>
+
 주변에 피해를 주고, 재사용 시 **둔화**를 적용합니다.
 
 **효과:**
@@ -92,6 +100,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/leesin/r.png) R - 용의 분노
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0064/ability_0064_R1.mp4" width="100%" preload="metadata" controls></video>
 
 강력한 발차기로 적을 **날려보내고** 주변 적에게 피해를 줍니다.
 

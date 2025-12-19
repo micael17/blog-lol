@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/darius/passive.png) 패시브 - 과다출혈
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0122/ability_0122_P1.mp4" width="100%" preload="metadata" controls></video>
+
 기본 공격과 스킬이 **출혈**을 일으킵니다.
 
 **효과:**
@@ -55,6 +57,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/darius/q.png) Q - 대학살
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0122/ability_0122_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 도끼를 크게 휘둘러 **넓은 범위**에 피해를 줍니다.
 
@@ -71,6 +75,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/darius/w.png) W - 무자비한 일격
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0122/ability_0122_W1.mp4" width="100%" preload="metadata" controls></video>
+
 다음 기본 공격이 **강화**되어 둔화를 적용합니다.
 
 **효과:**
@@ -86,6 +92,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/darius/e.png) E - 속박
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0122/ability_0122_E1.mp4" width="100%" preload="metadata" controls></video>
+
 전방의 적을 **끌어당깁니다**.
 
 **효과:**
@@ -98,6 +106,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/darius/r.png) R - 녹서스의 단두대
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0122/ability_0122_R1.mp4" width="100%" preload="metadata" controls></video>
 
 적을 **처형**하는 강력한 궁극기입니다.
 

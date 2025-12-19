@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/twitch/passive.png) 패시브 - 치명적인 독
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0029/ability_0029_P1.mp4" width="100%" preload="metadata" controls></video>
+
 기본 공격이 **독**을 부여합니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/twitch/q.png) Q - 매복
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0029/ability_0029_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 **은신** 상태가 됩니다.
 
@@ -69,6 +73,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/twitch/w.png) W - 독성 물약
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0029/ability_0029_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **독 물약**을 던져 둔화와 독을 부여합니다.
 
 **효과:**
@@ -82,6 +88,8 @@ CC와 독 스택 부여에 사용하는 유틸 스킬입니다.
 ---
 
 ### ![E](/images/champions/twitch/e.png) E - 오염
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0029/ability_0029_E1.mp4" width="100%" preload="metadata" controls></video>
 
 **독 스택을 폭발**시켜 피해를 줍니다.
 
@@ -97,6 +105,8 @@ CC와 독 스택 부여에 사용하는 유틸 스킬입니다.
 ---
 
 ### ![R](/images/champions/twitch/r.png) R - 살포!
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0029/ability_0029_R1.mp4" width="100%" preload="metadata" controls></video>
 
 사거리가 대폭 늘어나고 **관통** 공격을 합니다.
 

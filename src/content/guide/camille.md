@@ -42,6 +42,8 @@ updatedDate: 2025-12-19
 
 ### ![패시브](/images/champions/camille/passive.png) 패시브 - 적응형 방어막
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0164/ability_0164_P1.mp4" width="100%" preload="metadata" controls></video>
+
 적 챔피언 공격 시 **피해 유형에 맞는 보호막**을 얻습니다.
 
 **효과:**
@@ -56,6 +58,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/camille/q.png) Q - 정밀 프로토콜
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0164/ability_0164_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 두 번 사용하는 **강화 공격** 스킬입니다.
 
@@ -74,6 +78,8 @@ updatedDate: 2025-12-19
 
 ### ![W](/images/champions/camille/w.png) W - 전술적 휩쓸기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0164/ability_0164_W1.mp4" width="100%" preload="metadata" controls></video>
+
 전방 부채꼴 범위를 **휩쓸며 둔화 + 회복**하는 스킬입니다.
 
 **효과:**
@@ -89,6 +95,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![E](/images/champions/camille/e.png) E - 후크샷
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0164/ability_0164_E1.mp4" width="100%" preload="metadata" controls></video>
 
 벽을 타고 **돌진**하는 카밀의 시그니처 스킬입니다.
 
@@ -107,6 +115,8 @@ E로 진입 후 Q-Q2 콤보가 카밀의 기본 패턴입니다.
 ---
 
 ### ![R](/images/champions/camille/r.png) R - 육각 최후통첩
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0164/ability_0164_R1.mp4" width="100%" preload="metadata" controls></video>
 
 적을 **구역 안에 가두는** 궁극기입니다.
 

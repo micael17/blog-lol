@@ -1,10 +1,12 @@
 ---
 import { SITE_NAME } from '../consts';
+import Search from './Search.astro';
 ---
 
 <header>
 	<nav>
 		<a href="/" class="logo">{SITE_NAME}</a>
+		<Search />
 		<div class="nav-links">
 			<a href="/guide">공략</a>
 			<a href="/news">뉴스</a>
@@ -29,6 +31,7 @@ import { SITE_NAME } from '../consts';
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 1rem;
 	}
 
 	.logo {
@@ -40,6 +43,7 @@ import { SITE_NAME } from '../consts';
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		flex-shrink: 0;
 	}
 
 	.logo::before {
@@ -57,7 +61,8 @@ import { SITE_NAME } from '../consts';
 
 	.nav-links {
 		display: flex;
-		gap: 2.5rem;
+		gap: 2rem;
+		flex-shrink: 0;
 	}
 
 	.nav-links a {
@@ -92,10 +97,11 @@ import { SITE_NAME } from '../consts';
 	@media (max-width: 640px) {
 		nav {
 			padding: 0.875rem 1rem;
+			gap: 0.5rem;
 		}
 
 		.nav-links {
-			gap: 1.5rem;
+			gap: 1rem;
 		}
 
 		.nav-links a {

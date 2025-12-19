@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/janna/passive.png) 패시브 - 순풍
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0040/ability_0040_P1.mp4" width="100%" preload="metadata" controls></video>
+
 잔나와 **아군의 이동 속도**가 증가합니다.
 
 **효과:**
@@ -52,6 +54,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/janna/q.png) Q - 울부짖는 강풍
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0040/ability_0040_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 **토네이도**를 발사하여 적을 **띄워올립니다**.
 
@@ -69,6 +73,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/janna/w.png) W - 서풍
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0040/ability_0040_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **바람**을 날려 피해와 둔화를 줍니다.
 
 **효과:**
@@ -84,6 +90,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/janna/e.png) E - 폭풍의 눈
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0040/ability_0040_E1.mp4" width="100%" preload="metadata" controls></video>
+
 아군에게 **보호막**을 부여하고 **AD를 증가**시킵니다.
 
 **효과:**
@@ -98,6 +106,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/janna/r.png) R - 몬순
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0040/ability_0040_R1.mp4" width="100%" preload="metadata" controls></video>
 
 주변 적을 **밀어내고** 아군을 **치유**합니다.
 

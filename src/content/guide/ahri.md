@@ -42,6 +42,8 @@ updatedDate: 2025-12-19
 
 ### ![패시브](/images/champions/ahri/passive.png) 패시브 - 정수 약탈
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0103/ability_0103_P1.mp4" width="100%" preload="metadata" controls></video>
+
 적 처치 시 **체력을 회복**하고 **궁극기 충전**을 얻는 패시브입니다.
 
 **효과:**
@@ -54,6 +56,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/ahri/q.png) Q - 현혹의 구슬
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0103/ability_0103_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 구슬을 던지고 돌아오며 **두 번 피해**를 주는 스킬입니다.
 
@@ -68,6 +72,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![W](/images/champions/ahri/w.png) W - 여우불
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0103/ability_0103_W1.mp4" width="100%" preload="metadata" controls></video>
 
 주변 적에게 자동으로 **유도되는 불꽃**을 발사합니다.
 
@@ -84,6 +90,8 @@ updatedDate: 2025-12-19
 
 ### ![E](/images/champions/ahri/e.png) E - 매혹
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0103/ability_0103_E1.mp4" width="100%" preload="metadata" controls></video>
+
 적을 **매혹**시켜 자신에게 걸어오게 하는 CC기입니다.
 
 **효과:**
@@ -97,6 +105,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/ahri/r.png) R - 령의 질주
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0103/ability_0103_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **3회 돌진**하며 피해를 주는 궁극기입니다.
 

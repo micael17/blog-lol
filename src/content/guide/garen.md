@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/garen/passive.png) 패시브 - 인내
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_P1.mp4" width="100%" preload="metadata" controls></video>
+
 전투를 하지 않으면 **체력을 빠르게 회복**합니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/garen/q.png) Q - 결정타
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 다음 공격이 **강화**되며 **침묵**을 부여합니다.
 
@@ -68,6 +72,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/garen/w.png) W - 용기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **방어력과 마법 저항력**을 증가시키고 피해를 감소시킵니다.
 
 **효과:**
@@ -81,6 +87,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![E](/images/champions/garen/e.png) E - 심판
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_E1.mp4" width="100%" preload="metadata" controls></video>
 
 제자리에서 **회전**하며 주변 적에게 피해를 줍니다.
 
@@ -96,6 +104,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/garen/r.png) R - 데마시아의 정의
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_R1.mp4" width="100%" preload="metadata" controls></video>
 
 적에게 **처형** 피해를 줍니다.
 

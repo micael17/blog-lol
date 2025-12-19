@@ -38,9 +38,32 @@ updatedDate: YYYY-MM-DD
 - 스킬 효과, 수치, 활용 팁
 - 3줄 요약 **없음** (개별 스킬에도 없음)
 
+**스킬 영상 규칙:**
+
+공식 LoL 챔피언 페이지에서 스킬 영상 URL을 가져옵니다.
+
+**URL 패턴:**
+```
+https://lol.dyn.riotcdn.net/x/videos/champion-abilities/[챔피언ID]/ability_[챔피언ID]_[스킬키]1.mp4
+```
+
+- **챔피언ID**: 4자리 숫자 (예: 가렌 `0086`, 아리 `0103`)
+- **스킬키**: `P1` (패시브), `Q1`, `W1`, `E1`, `R1`
+
+**챔피언 ID 확인 방법:**
+1. 공식 챔피언 페이지 접속: `https://www.leagueoflegends.com/ko-kr/champions/[챔피언영문소문자]/`
+2. 브라우저 개발자 도구에서 video source 태그의 URL 확인
+3. 또는 Data Dragon API에서 챔피언 key 값 확인
+
 **스킬 영상 형식:**
 ```html
-<video src="https://cmsassets.rgpub.io/sanity/files/..." width="100%" preload="metadata" controls></video>
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/[챔피언ID]/ability_[챔피언ID]_P1.mp4" width="100%" preload="metadata" controls></video>
+```
+
+**예시 (가렌):**
+```html
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_P1.mp4" width="100%" preload="metadata" controls></video>
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0086/ability_0086_Q1.mp4" width="100%" preload="metadata" controls></video>
 ```
 
 ### 4. 스킬 콤보 가이드

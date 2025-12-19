@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/zed/passive.png) 패시브 - 약자 멸시
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0238/ability_0238_P1.mp4" width="100%" preload="metadata" controls></video>
+
 체력이 낮은 적에게 기본 공격 시 **추가 마법 피해**를 줍니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/zed/q.png) Q - 면도날 표창
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0238/ability_0238_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 표창을 던져 피해를 줍니다. **그림자도 함께 던집니다.**
 
@@ -69,6 +73,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/zed/w.png) W - 그림자 분신
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0238/ability_0238_W1.mp4" width="100%" preload="metadata" controls></video>
+
 그림자를 소환하고, 재사용 시 **그림자와 위치를 교체**합니다.
 
 **효과:**
@@ -84,6 +90,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/zed/e.png) E - 그림자 베기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0238/ability_0238_E1.mp4" width="100%" preload="metadata" controls></video>
+
 주변을 베어 피해를 주고 **둔화**시킵니다.
 
 **효과:**
@@ -98,6 +106,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/zed/r.png) R - 죽음의 표식
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0238/ability_0238_R1.mp4" width="100%" preload="metadata" controls></video>
 
 적에게 돌진하여 **표식**을 남기고, 3초 후 폭발합니다.
 

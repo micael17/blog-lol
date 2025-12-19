@@ -42,6 +42,8 @@ updatedDate: 2025-12-19
 
 ### ![패시브](/images/champions/viego/passive.png) 패시브 - 지배자
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_P1.mp4" width="100%" preload="metadata" controls></video>
+
 비에고의 **핵심 메카닉**인 빙의 시스템입니다.
 
 **효과:**
@@ -56,6 +58,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/viego/q.png) Q - 몰락한 왕의 검
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 기본 공격을 강화하고 **전방을 베는** 스킬입니다.
 
@@ -74,6 +78,8 @@ Q 패시브의 현재 체력 비례 피해가 정글 클리어와 싸움 모두�
 
 ### ![W](/images/champions/viego/w.png) W - 유령 안개
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_W1.mp4" width="100%" preload="metadata" controls></video>
+
 안개 속에서 **돌진**하며 적을 기절시키는 스킬입니다.
 
 **효과:**
@@ -89,6 +95,8 @@ Q 패시브의 현재 체력 비례 피해가 정글 클리어와 싸움 모두�
 
 ### ![E](/images/champions/viego/e.png) E - 망자의 길
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_E1.mp4" width="100%" preload="metadata" controls></video>
+
 벽을 따라 **안개를 생성**하는 스킬입니다.
 
 **효과:**
@@ -103,6 +111,8 @@ Q 패시브의 현재 체력 비례 피해가 정글 클리어와 싸움 모두�
 ---
 
 ### ![R](/images/champions/viego/r.png) R - 비애의 심연
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_R1.mp4" width="100%" preload="metadata" controls></video>
 
 순간이동하며 **범위 내 체력 비율이 가장 낮은 적에게 추가 피해**를 주는 궁극기입니다.
 

@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/thresh/passive.png) 패시브 - 지옥살이
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0412/ability_0412_P1.mp4" width="100%" preload="metadata" controls></video>
+
 처치된 적의 영혼을 수집하여 **방어력과 주문력**을 얻습니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/thresh/q.png) Q - 사형 선고
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0412/ability_0412_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 낫을 던져 적을 **끌어당기고** 재사용 시 돌진합니다.
 
@@ -67,6 +71,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![W](/images/champions/thresh/w.png) W - 저승 등불
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0412/ability_0412_W1.mp4" width="100%" preload="metadata" controls></video>
 
 아군에게 **랜턴**을 던져 보호막과 이동 수단을 제공합니다.
 
@@ -83,6 +89,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/thresh/e.png) E - 영혼 태형
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0412/ability_0412_E1.mp4" width="100%" preload="metadata" controls></video>
+
 낫을 휘둘러 적을 **밀거나 끌어당기고** 둔화시킵니다.
 
 **효과:**
@@ -97,6 +105,8 @@ Q 적중 후 E로 방향 조절하거나, Q 없이 E-Q 콤보도 가능합니다
 ---
 
 ### ![R](/images/champions/thresh/r.png) R - 벽장
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0412/ability_0412_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **5개의 벽**을 생성하여 적을 가두고 둔화시킵니다.
 

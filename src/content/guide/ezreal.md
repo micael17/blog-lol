@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/ezreal/passive.png) 패시브 - 상승 주문력
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0081/ability_0081_P1.mp4" width="100%" preload="metadata" controls></video>
+
 스킬 적중 시 **공격 속도**가 증가합니다.
 
 **효과:**
@@ -53,6 +55,8 @@ Q를 꾸준히 맞추면 DPS가 크게 증가합니다.
 ---
 
 ### ![Q](/images/champions/ezreal/q.png) Q - 비전 이동
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0081/ability_0081_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 에너지 탄환을 발사합니다. 적중 시 **쿨타임 감소**.
 
@@ -70,6 +74,8 @@ Q를 꾸준히 맞추면 DPS가 크게 증가합니다.
 
 ### ![W](/images/champions/ezreal/w.png) W - 정수 흐름
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0081/ability_0081_W1.mp4" width="100%" preload="metadata" controls></video>
+
 에너지 구체를 발사하여 적/구조물에 **표식**을 남깁니다.
 
 **효과:**
@@ -85,6 +91,8 @@ W-Q 콤보나 W-E 콤보로 버스트 딜을 줍니다.
 
 ### ![E](/images/champions/ezreal/e.png) E - 비전 점멸
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0081/ability_0081_E1.mp4" width="100%" preload="metadata" controls></video>
+
 짧은 거리를 **순간이동**하며 가장 가까운 적에게 피해를 줍니다.
 
 **효과:**
@@ -98,6 +106,8 @@ W-Q 콤보나 W-E 콤보로 버스트 딜을 줍니다.
 ---
 
 ### ![R](/images/champions/ezreal/r.png) R - 정조준 일격
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0081/ability_0081_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **맵 전체**를 관통하는 거대한 에너지파를 발사합니다.
 

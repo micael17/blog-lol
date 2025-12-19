@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/drmundo/passive.png) 패시브 - 가고 싶은 데로 간다
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0036/ability_0036_P1.mp4" width="100%" preload="metadata" controls></video>
+
 **CC를 무효화**하고 체력을 회복합니다.
 
 **효과:**
@@ -55,6 +57,8 @@ CC 면역과 체력 회복을 동시에 제공하는 강력한 패시브입니�
 ---
 
 ### ![Q](/images/champions/drmundo/q.png) Q - 감염된 식칼
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0036/ability_0036_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 **칼**을 던져 피해와 둔화를 줍니다.
 
@@ -72,6 +76,8 @@ CC 면역과 체력 회복을 동시에 제공하는 강력한 패시브입니�
 
 ### ![W](/images/champions/drmundo/w.png) W - 심장 충격기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0036/ability_0036_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **전기 충격**을 저장하고 방출합니다.
 
 **효과:**
@@ -87,6 +93,8 @@ CC 면역과 체력 회복을 동시에 제공하는 강력한 패시브입니�
 
 ### ![E](/images/champions/drmundo/e.png) E - 둔기 외상
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0036/ability_0036_E1.mp4" width="100%" preload="metadata" controls></video>
+
 다음 공격이 **강화**됩니다.
 
 **효과:**
@@ -101,6 +109,8 @@ CC 면역과 체력 회복을 동시에 제공하는 강력한 패시브입니�
 ---
 
 ### ![R](/images/champions/drmundo/r.png) R - 최대 용량
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0036/ability_0036_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **거대화**하며 체력을 대폭 회복합니다.
 

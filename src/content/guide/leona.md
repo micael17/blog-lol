@@ -42,6 +42,8 @@ updatedDate: 2025-12-19
 
 ### ![패시브](/images/champions/leona/passive.png) 패시브 - 햇빛
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0089/ability_0089_P1.mp4" width="100%" preload="metadata" controls></video>
+
 레오나의 **팀 시너지** 패시브입니다.
 
 **효과:**
@@ -55,6 +57,8 @@ updatedDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/leona/q.png) Q - 여명의 방패
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0089/ability_0089_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 다음 기본 공격에 **기절**을 부여하는 스킬입니다.
 
@@ -70,6 +74,8 @@ E로 진입 후 Q로 기절시키는 것이 기본 콤보입니다.
 
 ### ![W](/images/champions/leona/w.png) W - 일식
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0089/ability_0089_W1.mp4" width="100%" preload="metadata" controls></video>
+
 방어력과 마법 저항력을 올리고 **주변에 피해**를 주는 스킬입니다.
 
 **효과:**
@@ -83,6 +89,8 @@ E로 진입하기 전에 W를 미리 켜서 생존력을 높이세요.
 ---
 
 ### ![E](/images/champions/leona/e.png) E - 천공의 검
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0089/ability_0089_E1.mp4" width="100%" preload="metadata" controls></video>
 
 적에게 **돌진**하는 핵심 이니시 스킬입니다.
 
@@ -98,6 +106,8 @@ E는 벽을 넘을 수 없지만, 적 챔피언에게 적중하면 끌려갑니�
 ---
 
 ### ![R](/images/champions/leona/r.png) R - 태양광 작렬
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0089/ability_0089_R1.mp4" width="100%" preload="metadata" controls></video>
 
 넓은 범위에 **기절 또는 둔화**를 거는 궁극기입니다.
 

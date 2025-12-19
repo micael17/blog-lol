@@ -1,0 +1,247 @@
+---
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('guide');
+const searchData = guides.map(guide => ({
+	slug: guide.id,
+	champion: guide.data.champion,
+	role: guide.data.role,
+	title: guide.data.title,
+}));
+---
+
+<div class="search-container">
+	<div class="search-input-wrapper">
+		<svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+			<circle cx="11" cy="11" r="8"></circle>
+			<path d="m21 21-4.3-4.3"></path>
+		</svg>
+		<input
+			type="text"
+			id="search-input"
+			placeholder="챔피언 검색..."
+			autocomplete="off"
+		/>
+	</div>
+	<ul id="search-results" class="search-results"></ul>
+</div>
+
+<script>
+	import Fuse from 'fuse.js';
+
+	const searchDataEl = document.getElementById('search-data');
+	const searchData = JSON.parse(searchDataEl?.textContent || '[]');
+
+	const fuse = new Fuse(searchData, {
+		keys: ['champion', 'role', 'title'],
+		threshold: 0.3,
+		includeScore: true,
+	});
+
+	const input = document.getElementById('search-input') as HTMLInputElement;
+	const results = document.getElementById('search-results') as HTMLUListElement;
+
+	function renderResults(items: typeof searchData) {
+		if (items.length === 0) {
+			results.innerHTML = '';
+			results.classList.remove('active');
+			return;
+		}
+
+		results.innerHTML = items.map(item => `
+			<li style="margin:0;padding:0;list-style:none;">
+				<a href="/guide/${item.slug}/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:8px;text-decoration:none;color:#1f2937;transition:background 0.15s;">
+					<span style="font-weight:600;font-size:0.875rem;">${item.champion}</span>
+					<span style="font-size:0.7rem;font-weight:500;padding:3px 8px;background:#111;border-radius:4px;color:#fff;">${item.role}</span>
+				</a>
+			</li>
+		`).join('');
+		results.classList.add('active');
+	}
+
+	function search(query: string) {
+		if (!query.trim()) {
+			renderResults([]);
+			return;
+		}
+
+		const fuseResults = fuse.search(query);
+		const filtered = fuseResults.map(r => r.item).slice(0, 8);
+		renderResults(filtered);
+	}
+
+	input?.addEventListener('input', (e) => {
+		search((e.target as HTMLInputElement).value);
+	});
+
+	input?.addEventListener('focus', () => {
+		if (input.value.trim()) {
+			search(input.value);
+		}
+	});
+
+	document.addEventListener('click', (e) => {
+		if (!(e.target as Element).closest('.search-container')) {
+			results?.classList.remove('active');
+		}
+	});
+
+	document.addEventListener('keydown', (e) => {
+		if (e.key === 'Escape') {
+			results?.classList.remove('active');
+			input?.blur();
+		}
+	});
+</script>
+
+<script id="search-data" type="application/json" set:html={JSON.stringify(searchData)} />
+
+<style is:global>
+	#search-results a:hover {
+		background: #f3f4f6 !important;
+	}
+</style>
+
+<style>
+	.search-container {
+		position: relative;
+		flex: 1;
+		max-width: 280px;
+	}
+
+	.search-input-wrapper {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.search-icon {
+		position: absolute;
+		left: 10px;
+		color: rgb(var(--gray-400));
+		pointer-events: none;
+		transition: color 0.15s;
+	}
+
+	.search-input-wrapper:focus-within .search-icon {
+		color: rgb(var(--gray-600));
+	}
+
+	#search-input {
+		width: 100%;
+		height: 36px;
+		padding: 0 12px 0 34px;
+		font-size: 0.875rem;
+		border: 1px solid rgb(var(--gray-200));
+		border-radius: 8px;
+		background: rgb(var(--gray-50));
+		color: rgb(var(--gray-800));
+		outline: none;
+		transition: all 0.2s ease;
+	}
+
+	#search-input::placeholder {
+		color: rgb(var(--gray-400));
+	}
+
+	#search-input:focus {
+		background: white;
+		border-color: rgb(var(--black));
+		box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+	}
+
+	.search-results {
+		display: none;
+		position: absolute;
+		top: calc(100% + 8px);
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 4px;
+		list-style: none;
+		background: white;
+		border: 1px solid rgb(var(--gray-200));
+		border-radius: 12px;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+		z-index: 100;
+		max-height: 340px;
+		overflow-y: auto;
+		animation: slideDown 0.15s ease-out;
+	}
+
+	@keyframes slideDown {
+		from {
+			opacity: 0;
+			transform: translateY(-4px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.search-results.active {
+		display: block;
+	}
+
+	#search-data {
+		display: none;
+	}
+
+	/* Scrollbar styling */
+	.search-results::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	.search-results::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	.search-results::-webkit-scrollbar-thumb {
+		background: rgb(var(--gray-300));
+		border-radius: 3px;
+	}
+
+	.search-results::-webkit-scrollbar-thumb:hover {
+		background: rgb(var(--gray-400));
+	}
+
+	@media (max-width: 640px) {
+		.search-container {
+			max-width: 140px;
+		}
+
+		#search-input {
+			height: 32px;
+			font-size: 0.8rem;
+			padding-left: 30px;
+			border-radius: 6px;
+		}
+
+		.search-icon {
+			width: 12px;
+			height: 12px;
+			left: 10px;
+		}
+
+		.search-results {
+			position: fixed;
+			left: 12px;
+			right: 12px;
+			top: 56px;
+			border-radius: 12px;
+		}
+
+		.search-results a {
+			padding: 12px;
+		}
+
+		.champion-name {
+			font-size: 0.9rem;
+		}
+
+		.role-badge {
+			font-size: 0.75rem;
+		}
+	}
+</style>

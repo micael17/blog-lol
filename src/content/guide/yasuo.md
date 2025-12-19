@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/yasuo/passive.png) 패시브 - 바람의 길
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0157/ability_0157_P1.mp4" width="100%" preload="metadata" controls></video>
+
 이동 시 **흐름**을 충전하고, 치명타 확률이 **2배**가 됩니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/yasuo/q.png) Q - 강철 폭풍
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0157/ability_0157_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 칼을 찌르거나 **회오리바람**을 발사합니다.
 
@@ -69,6 +73,8 @@ Q 회오리바람을 맞추면 R을 사용할 수 있습니다.
 
 ### ![W](/images/champions/yasuo/w.png) W - 바람 방벽
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0157/ability_0157_W1.mp4" width="100%" preload="metadata" controls></video>
+
 **투사체를 막는** 바람 벽을 생성합니다.
 
 **효과:**
@@ -81,6 +87,8 @@ Q 회오리바람을 맞추면 R을 사용할 수 있습니다.
 ---
 
 ### ![E](/images/champions/yasuo/e.png) E - 질풍참
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0157/ability_0157_E1.mp4" width="100%" preload="metadata" controls></video>
 
 적 유닛을 통과하며 **돌진**합니다.
 
@@ -95,6 +103,8 @@ Q 회오리바람을 맞추면 R을 사용할 수 있습니다.
 ---
 
 ### ![R](/images/champions/yasuo/r.png) R - 최후의 숨결
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0157/ability_0157_R1.mp4" width="100%" preload="metadata" controls></video>
 
 에어본 된 적에게 돌진하여 **난도질**합니다.
 

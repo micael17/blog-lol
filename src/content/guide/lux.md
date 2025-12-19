@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/lux/passive.png) 패시브 - 빛의 발현
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0099/ability_0099_P1.mp4" width="100%" preload="metadata" controls></video>
+
 스킬에 맞은 적에게 **표식**이 남고, 기본 공격으로 **폭발**시킵니다.
 
 **효과:**
@@ -54,6 +56,8 @@ pubDate: 2025-12-19
 
 ### ![Q](/images/champions/lux/q.png) Q - 빛의 속박
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0099/ability_0099_Q1.mp4" width="100%" preload="metadata" controls></video>
+
 빛 구체를 발사하여 최대 **2명의 적**을 속박합니다.
 
 **효과:**
@@ -66,6 +70,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![W](/images/champions/lux/w.png) W - 프리즘 방벽
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0099/ability_0099_W1.mp4" width="100%" preload="metadata" controls></video>
 
 빛의 지팡이를 던져 **아군에게 보호막**을 부여합니다.
 
@@ -82,6 +88,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/lux/e.png) E - 빛의 특이점
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0099/ability_0099_E1.mp4" width="100%" preload="metadata" controls></video>
+
 빛 구체를 던져 **둔화** 후 폭발시킵니다.
 
 **효과:**
@@ -95,6 +103,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/lux/r.png) R - 최후의 섬광
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0099/ability_0099_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **맵 절반**을 가로지르는 거대한 빛 레이저를 발사합니다.
 

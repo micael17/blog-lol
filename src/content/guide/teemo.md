@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/teemo/passive.png) 패시브 - 게릴라 전술
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0017/ability_0017_P1.mp4" width="100%" preload="metadata" controls></video>
+
 가만히 있으면 **투명** 상태가 됩니다.
 
 **효과:**
@@ -54,6 +56,8 @@ pubDate: 2025-12-19
 
 ### ![Q](/images/champions/teemo/q.png) Q - 실명 다트
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0017/ability_0017_Q1.mp4" width="100%" preload="metadata" controls></video>
+
 적에게 **실명**을 부여합니다.
 
 **효과:**
@@ -66,6 +70,8 @@ AA 의존 챔피언을 무력화하는 핵심 스킬입니다.
 ---
 
 ### ![W](/images/champions/teemo/w.png) W - 신속 이동
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0017/ability_0017_W1.mp4" width="100%" preload="metadata" controls></video>
 
 **이동 속도**가 증가합니다.
 
@@ -81,6 +87,8 @@ AA 의존 챔피언을 무력화하는 핵심 스킬입니다.
 
 ### ![E](/images/champions/teemo/e.png) E - 맹독 쐐기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0017/ability_0017_E1.mp4" width="100%" preload="metadata" controls></video>
+
 기본 공격에 **독 피해**를 추가합니다.
 
 **효과:**
@@ -94,6 +102,8 @@ AA 의존 챔피언을 무력화하는 핵심 스킬입니다.
 ---
 
 ### ![R](/images/champions/teemo/r.png) R - 악마의 버섯
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0017/ability_0017_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **독 버섯**을 설치합니다.
 

@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/nasus/passive.png) 패시브 - 영혼 포식자
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0075/ability_0075_P1.mp4" width="100%" preload="metadata" controls></video>
+
 **생명력 흡수**가 증가합니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/nasus/q.png) Q - 흡수 타격
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0075/ability_0075_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 다음 공격이 **강화**되며, 처치 시 **영구 스택**을 획득합니다.
 
@@ -70,6 +74,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/nasus/w.png) W - 쇠약
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0075/ability_0075_W1.mp4" width="100%" preload="metadata" controls></video>
+
 적의 **이동 속도와 공격 속도**를 감소시킵니다.
 
 **효과:**
@@ -82,6 +88,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![E](/images/champions/nasus/e.png) E - 영혼의 불
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0075/ability_0075_E1.mp4" width="100%" preload="metadata" controls></video>
 
 지정 위치에 **지속 피해** 영역을 생성합니다.
 
@@ -97,6 +105,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/nasus/r.png) R - 분노의 화신
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0075/ability_0075_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **거대화**하며 전투력이 대폭 상승합니다.
 

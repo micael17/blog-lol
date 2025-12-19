@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/jinx/passive.png) 패시브 - 신난다!
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0222/ability_0222_P1.mp4" width="100%" preload="metadata" controls></video>
+
 처치/어시스트 시 **폭발적인 이동 속도**를 얻습니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/jinx/q.png) Q - 무기 전환! (파우파우/피시본)
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0222/ability_0222_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 두 무기 사이를 **전환**합니다.
 
@@ -71,6 +75,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/jinx/w.png) W - 철컥!
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0222/ability_0222_W1.mp4" width="100%" preload="metadata" controls></video>
+
 전기충격을 발사하여 **피해 + 둔화**를 줍니다.
 
 **효과:**
@@ -84,6 +90,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![E](/images/champions/jinx/e.png) E - 불꽃놀이!
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0222/ability_0222_E1.mp4" width="100%" preload="metadata" controls></video>
 
 바닥에 **덫**을 설치합니다.
 
@@ -99,6 +107,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/jinx/r.png) R - 초대형 로켓!
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0222/ability_0222_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **맵 전체**를 가로지르는 거대한 로켓을 발사합니다.
 

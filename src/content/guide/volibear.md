@@ -41,6 +41,8 @@ pubDate: 2025-12-19
 
 ### ![패시브](/images/champions/volibear/passive.png) 패시브 - 천둥의 발톱
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_P1.mp4" width="100%" preload="metadata" controls></video>
+
 기본 공격 시 **번개 연쇄**를 발생시킵니다.
 
 **효과:**
@@ -53,6 +55,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![Q](/images/champions/volibear/q.png) Q - 천둥 강타
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_Q1.mp4" width="100%" preload="metadata" controls></video>
 
 돌진하여 적을 **기절**시킵니다.
 
@@ -69,6 +73,8 @@ pubDate: 2025-12-19
 
 ### ![W](/images/champions/volibear/w.png) W - 광란의 이빨
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_W1.mp4" width="100%" preload="metadata" controls></video>
+
 적을 물어뜯어 피해를 주고, **상처** 표식을 남깁니다.
 
 **효과:**
@@ -84,6 +90,8 @@ pubDate: 2025-12-19
 
 ### ![E](/images/champions/volibear/e.png) E - 하늘 가르기
 
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_E1.mp4" width="100%" preload="metadata" controls></video>
+
 지정 위치에 **번개**를 내리꽂습니다.
 
 **효과:**
@@ -98,6 +106,8 @@ pubDate: 2025-12-19
 ---
 
 ### ![R](/images/champions/volibear/r.png) R - 폭풍신 강림
+
+<video src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_R1.mp4" width="100%" preload="metadata" controls></video>
 
 **하늘에서 강림**하여 타워를 무력화합니다.
 
