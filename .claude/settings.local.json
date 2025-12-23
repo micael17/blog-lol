@@ -13,7 +13,19 @@
       "Bash(git push:*)",
       "Bash(curl:*)",
       "Bash(python3:*)",
-      "WebFetch(domain:ddragon.leagueoflegends.com)"
+      "WebFetch(domain:ddragon.leagueoflegends.com)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_evaluate",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(git commit:*)",
+      "Bash(xmllint:*)",
+      "Bash(ssh:*)",
+      "Bash(bun run build:*)"
     ]
   }
 }

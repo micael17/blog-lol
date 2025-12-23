@@ -4,7 +4,7 @@
 export const SITE_NAME = 'lolog';
 export const SITE_TITLE = 'lolog - 리그오브레전드 블로그';
 export const SITE_DESCRIPTION = '리그 오브 레전드 챔피언 공략 및 최신 뉴스';
-export const SITE_URL = 'https://blog-lol.pages.dev';
+export const SITE_URL = 'https://lolog.lol';
 export const SITE_LOCALE = 'ko_KR';
 export const SITE_AUTHOR = 'lolog';
 
