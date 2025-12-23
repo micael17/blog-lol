@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://lolog.lol/sitemap-index.xml
+Sitemap: https://lolog.lol/sitemap.xml
